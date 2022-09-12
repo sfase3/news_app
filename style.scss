@@ -1,0 +1,84 @@
+$color: rgb(238,110,115);
+
+
+.input[type="text"]{
+    height: 20px;
+}
+
+.color{
+    background-color: $color;
+}
+
+.font{
+    color: white;
+}
+
+.col.s12.m4.l8{
+    float: none;
+    margin: 100px auto;
+    
+}
+
+.text-area{
+   margin: 20px 0px;
+}
+
+label{
+    margin-top: 8px;
+}
+
+.card .card-action{
+text-align: center;
+padding-top: 0px;
+}
+
+button{
+    width: 200px;
+}
+
+.bg-black{
+    width: 100%;
+    font-weight: 900;
+    background-color: black;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+.row.grid-container.bg-dark{
+.col.s12{
+    .card{
+        .card-image span{
+            background-color: white;
+            color:rgb(47, 48, 48)
+        }
+        .card-content{
+            background-color: rgb(47, 48, 48);
+            color: white
+        }
+        .card-action{
+            background-color: rgb(47, 48, 48);
+        }
+    }
+}
+}
+
+.row.grid-container.bg-white{
+    .col.s12{
+        .card{
+            .card-image span{
+                background-color: rgb(47, 48, 48);
+                color:white
+            }
+            .card-content{
+                background-color: white;
+                color: rgb(47, 48, 48)
+            }
+            .card-action{
+                background-color: white;
+            }
+        }
+    }
+    }
